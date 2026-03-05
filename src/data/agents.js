@@ -1,0 +1,38 @@
+export const agents = [
+  {
+    id: 1,
+    title: 'Custom Interviewer Agent',
+    desc: 'Paste any job posting and get a tailored mock interview with role-specific questions, follow-ups, and real-time feedback. Built to help candidates prep smarter, not harder.',
+    tags: ['AI Agent', 'LLM', 'Career Tools'],
+    highlight: '#fde68a',
+    url: '#',
+    badge: 'Live',
+  },
+  {
+    id: 2,
+    title: 'Category Expansion Tool',
+    desc: 'AI-assisted framework that evaluates new product categories for a DTC brand. Scores 40+ SKUs across margin, demand signal, and brand fit to prioritize the launch roadmap.',
+    tags: ['AI Agent', 'Strategy', 'DTC'],
+    highlight: '#bbf7d0',
+    url: '#',
+    badge: 'Live',
+  },
+  {
+    id: 3,
+    title: 'Personal Assistant Agent',
+    desc: 'A persistent AI assistant that manages tasks, drafts communications, and surfaces relevant context. Designed around how a senior operator actually works.',
+    tags: ['AI Agent', 'Productivity', 'LLM'],
+    highlight: '#ddd6fe',
+    url: '#',
+    badge: 'Live',
+  },
+  {
+    id: 4,
+    title: 'AI Use Case Prioritization Matrix',
+    desc: 'Strategy framework for retail and consumer companies to evaluate which AI bets to place first. Scores initiatives on feasibility, impact, and time-to-value.',
+    tags: ['Strategy', 'Retail AI', 'Framework'],
+    highlight: '#fed7aa',
+    url: '#',
+    badge: 'Coming soon',
+  },
+]

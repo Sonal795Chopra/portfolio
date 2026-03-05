@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fefdf8;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+  color: #1c1c1c;
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Rough Card ── */
+.rough-card {
+  transform: rotate(var(--card-rotate, 0deg));
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+              filter 0.3s ease;
+  filter: drop-shadow(2px 3px 8px rgba(0, 0, 0, 0.07));
+}
+
+@media (hover: hover) {
+  .rough-card:hover {
+    transform: rotate(0deg) translateY(-6px);
+    filter: drop-shadow(4px 10px 24px rgba(0, 0, 0, 0.14));
+  }
+}
+
+/* ── Highlight spans in Hero tagline ── */
+.word-highlight {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+
+.word-highlight::before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  bottom: 2px;
+  height: 42%;
+  background: var(--highlight-color, #fde68a);
+  z-index: -1;
+  border-radius: 2px;
+}
+
+/* ── Bounce animation for scroll indicator ── */
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 1.8s ease-in-out infinite;
+}
+
+/* ── Wiggle doodles ── */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-4deg); }
+  50% { transform: rotate(4deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 3s ease-in-out infinite;
+}
+
+.animate-wiggle-delay {
+  animation: wiggle 3.5s ease-in-out infinite 0.8s;
+}
+
+/* ── Frosted navbar ── */
+.navbar-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ── Availability badge pulse ── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
