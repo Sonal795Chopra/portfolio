@@ -14,7 +14,7 @@ export const agents = [
     desc: 'AI-assisted framework that evaluates new product categories for a DTC brand. Scores 40+ SKUs across margin, demand signal, and brand fit to prioritize the launch roadmap.',
     tags: ['AI Agent', 'Strategy', 'DTC'],
     highlight: '#bbf7d0',
-    url: '#',
+    url: 'https://sonal795chopra.github.io/category-expansion-tool/',
     badge: 'Live',
   },
   {
