@@ -19,11 +19,11 @@ export const agents = [
   },
   {
     id: 3,
-    title: 'Personal Assistant Agent',
-    desc: 'A persistent AI assistant that manages tasks, drafts communications, and surfaces relevant context. Designed around how a senior operator actually works.',
-    tags: ['AI Agent', 'Productivity', 'LLM'],
+    title: 'Retail Returns Agent',
+    desc: 'AI agent that analyzes return patterns across SKUs and channels, flags cost drivers, and recommends policy or assortment changes to reduce return rates and protect margin.',
+    tags: ['AI Agent', 'Retail AI', 'Operations'],
     highlight: '#ddd6fe',
-    url: '#',
+    url: 'https://github.com/Sonal795Chopra/retail-agent',
     badge: 'Live',
   },
   {
