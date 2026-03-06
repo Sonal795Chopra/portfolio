@@ -5,7 +5,7 @@ export const agents = [
     desc: 'Paste any job posting and get a tailored mock interview with role-specific questions, follow-ups, and real-time feedback. Built to help candidates prep smarter, not harder.',
     tags: ['AI Agent', 'LLM', 'Career Tools'],
     highlight: '#fde68a',
-    url: '#',
+    url: 'https://sonal795chopra.github.io/interview-coach/',
     badge: 'Live',
   },
   {
