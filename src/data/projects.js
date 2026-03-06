@@ -47,4 +47,28 @@ export const projects = [
     highlight: '#a7f3d0',
     rotate: 0.8,
   },
+  {
+    id: 7,
+    title: 'AI Consumer Interview Pipeline',
+    desc: 'Built an end-to-end AI research pipeline using voice technology and automated transcript analysis. Compressed consumer research cycles from 4 weeks to 2-3 days across US and Singapore.',
+    tags: ['AI/Tools', 'Research', 'Voice AI'],
+    highlight: '#fde68a',
+    rotate: -1.1,
+  },
+  {
+    id: 8,
+    title: 'Future of SaaS in the World of Agents',
+    desc: 'Independent Stanford research on how agentic AI restructures enterprise software architectures, vendor relationships, and workflow design — and what it means for the SaaS business model.',
+    tags: ['Research', 'AI Strategy', 'Enterprise'],
+    highlight: '#ddd6fe',
+    rotate: 1.4,
+  },
+  {
+    id: 9,
+    title: 'Real-Time Consumer Intelligence Platform',
+    desc: "Designed P&G's first real-time digital consumer intelligence platform. Defined product strategy, operating model, and data pipelines to capture live sentiment, enabling $25M incremental growth.",
+    tags: ['AI/Tools', 'Data', 'Product Strategy'],
+    highlight: '#bbf7d0',
+    rotate: -0.6,
+  },
 ]
