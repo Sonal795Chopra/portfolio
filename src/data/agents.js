@@ -23,7 +23,7 @@ export const agents = [
     desc: 'AI agent that analyzes return patterns across SKUs and channels, flags cost drivers, and recommends policy or assortment changes to reduce return rates and protect margin.',
     tags: ['AI Agent', 'Retail AI', 'Operations'],
     highlight: '#ddd6fe',
-    url: 'https://github.com/Sonal795Chopra/retail-agent',
+    url: 'https://sonal795chopra.github.io/retail-agent/',
     badge: 'Live',
   },
   {
