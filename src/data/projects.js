@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: 'Quince Category Expansion Tool',
+    title: 'Category Expansion Tool',
     desc: 'Built an AI-assisted framework to evaluate new product categories for a DTC brand. Scored 40+ SKUs across margin, demand signal, and brand fit to prioritize the launch roadmap.',
     tags: ['AI/Tools', 'Strategy', 'DTC'],
     highlight: '#fde68a',
