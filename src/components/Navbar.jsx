@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 const links = [
   { label: 'work', href: '#projects' },
   { label: 'agents', href: '#agents' },
+  { label: 'skills', href: '#skills' },
   { label: 'resume', href: '#resume' },
   { label: 'contact', href: '#contact' },
 ]
