@@ -11,10 +11,8 @@ function Tag({ label }) {
 }
 
 function ProjectCard({ project }) {
-  return (
-    <RoughCard
-      style={{ '--card-rotate': `${project.rotate}deg` }}
-    >
+  const card = (
+    <RoughCard style={{ '--card-rotate': `${project.rotate}deg` }}>
       {/* Accent color strip */}
       <div
         className="w-10 h-1.5 mb-4 rounded-full"
@@ -30,9 +28,23 @@ function ProjectCard({ project }) {
         {project.tags.map((t) => (
           <Tag key={t} label={t} />
         ))}
+        {project.url && (
+          <span className="inline-block text-xs font-body font-semibold px-2.5 py-0.5 bg-ink text-paper ml-auto mb-1.5">
+            view →
+          </span>
+        )}
       </div>
     </RoughCard>
   )
+
+  if (project.url) {
+    return (
+      <a href={project.url} target="_blank" rel="noopener noreferrer" className="block">
+        {card}
+      </a>
+    )
+  }
+  return card
 }
 
 export default function Projects() {

@@ -30,6 +30,7 @@ export const projects = [
     tags: ['AI/Tools', 'Strategy', 'DTC'],
     highlight: '#fed7aa',
     rotate: 1.5,
+    url: 'https://sonal795chopra.github.io/category-expansion-tool/',
   },
   {
     id: 5,
