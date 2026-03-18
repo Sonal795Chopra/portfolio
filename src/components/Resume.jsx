@@ -22,7 +22,7 @@ export default function Resume() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="/sonal-chopra-resume.pdf"
+              href="/portfolio/sonal-chopra-resume.pdf"
               download="sonal-chopra-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
