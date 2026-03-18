@@ -23,6 +23,7 @@ export default function Resume() {
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="/sonal-chopra-resume.pdf"
+              download="sonal-chopra-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-paper text-ink font-body font-semibold px-8 py-3 border-2 border-paper hover:bg-transparent hover:text-paper transition-colors duration-200"
