@@ -59,7 +59,9 @@ export default function Hero() {
 
         {/* Sub-tagline */}
         <p className="font-body text-base sm:text-lg text-ink/60 max-w-xl mx-auto mt-4 mb-10 leading-relaxed">
-          Stanford MBA '26 · ex-Founder · ex-BCG · ex-P&amp;G · Dir. of Portfolio Ops, Stanford GSB Fund
+          Stanford MBA '26 · ex-Founder · ex-BCG · ex-P&amp;G
+          <br />
+          Director of Portfolio Operations, Stanford GSB Fund
         </p>
 
         {/* CTA buttons */}
